@@ -7,13 +7,14 @@ body{
         ". leftSidebar leftSidebar contentArea rightSidebar ."
         ". footer footer footer footer .";
     
+    
 }
 
 
 
 .logo{
     grid-area: logo;
-    background-color: bisque;
+    
     /*grid-column-start:2;
     grid-column-end:3; 
     grid-row-start: 1;
@@ -23,12 +24,13 @@ body{
 header{
     grid-area: header;
     text-align: center;
+    line-height: 100px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /*grid-column-start: 3;
     grid-column-end:6; 
     grid-row-start: 1;
     grid-row-end: 2;*/
-    background-color: lightblue;
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
     
 }
 
@@ -40,7 +42,7 @@ header{
     grid-column-end:4; 
     grid-row-start: 2;
     grid-row-end: 3;*/
-    background-color: lightcoral
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
 
 .sidebarRight{
@@ -50,7 +52,7 @@ header{
     grid-column-end:6; 
     grid-row-start:2;
     grid-row-end: 3;*/
-    background-color: lightseagreen
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
 
 .content{
@@ -60,15 +62,21 @@ header{
     grid-column-end:5; 
     grid-row-start:2;
     grid-row-end: 3;*/
-    background-color: lightgrey
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
+
 
 footer{
     grid-area: footer;
     text-align: center;
+    
     /*grid-column-start: 2;
     grid-column-end:6; 
     grid-row-start: 3;
     grid-row-end: 4;*/
-    background-color: lightsalmon
+    
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+
 }
