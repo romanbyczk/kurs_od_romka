@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-columns:20vw 60px 40px auto 100px 20vw;
+    grid-template-rows: 100px 60vh 100px;
+    }
+.logo{
+    grid-column-start:2;
+    grid-column-end:3; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+        
+        
+header{
+grid-column-start: 3;
+grid-column-end:6; 
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: lightblue;
+}    
