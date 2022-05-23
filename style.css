@@ -6,8 +6,6 @@ body{
         ". logo logo header header ."
         ". leftSidebar leftSidebar contentArea rightSidebar ."
         ". footer footer footer footer .";
-    
-    
 }
 
 
@@ -31,7 +29,6 @@ header{
     grid-row-start: 1;
     grid-row-end: 2;*/
     background: linear-gradient(315deg, #ffffff, #d7e1ec);
-    
 }
 
 
@@ -78,5 +75,4 @@ footer{
     font-family: "Poppins", sans-serif;
     place-items: center;
     background: linear-gradient(315deg, #ffffff, #d7e1ec);
-
 }
